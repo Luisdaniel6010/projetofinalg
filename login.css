@@ -1,4 +1,64 @@
+*{
+    font-family: -apple-system, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+  }
 
-.barra {
-    background-color: black;
+  body{
+    background-color: #120536;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-weight: 400;
+   
+   
 }
+
+
+.content {
+    margin-block-end: auto;
+    list-style: none;
+    margin-top:auto;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 1.5rem 10rem;
+    background-color: rgb(21, 21, 21);
+  
+}
+
+.boton{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    height: 32px;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor:pointer;
+    background-color: whitesmoke;
+    color: #120536;
+    margin: 5px;
+}
+.boton :hover{
+    color:rgb(24, 9, 238); 
+}
+
+.card {
+    height:425px;
+    width: 325px;
+    border-radius: 5px;
+    background-color: transparent;
+    overflow: hidden;
+    text-align:left;
+    font-weight: 700;
+    size: 32px;
+    line-height: 37px;
+    left: 400px;
+  }
