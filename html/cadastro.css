@@ -9,8 +9,7 @@
       background-size:cover;
       display: flex;
       flex-direction: row;
-      padding: 5rem 5rem 1rem 5rem;
-
+      padding: 8rem;
     }  
   .content {
       display: flex;
@@ -43,8 +42,8 @@
   }
   
   .card {
-    
-      height:665px;
+      box-sizing: border-box;
+      height:265px;
       width: 555px;
       background-color: transparent;
       overflow: hidden;
@@ -54,11 +53,10 @@
       line-height: 37px;
       color: white;
       font-size: 32px;
-      font-style: italic;  
-  
+      font-style: italic;    
     }
     .card2 {
-        height:100px;
+        height:265px;
         width: 555px;
         background-color: transparent;
         text-align:left;
@@ -66,21 +64,8 @@
         line-height: 37px;
         color: white;
         font-size: 20px;
-        font-style: italic;  
-   
-      }
-      .card3 {
-        inset-block:inherit;
-        height:100px;
-        width: 555px;
-        background-color: transparent;
-        text-align:left;
-        font-weight: 100;
-        line-height: 37px;
-        color: white;
-        font-size: 16px;
-      }
-  
+        font-style: italic;    
+      }  
   
     .boton2 {
       top: 50PX;
@@ -103,7 +88,7 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      padding: 1rem 10rem;
+      padding: 2rem 10rem;
       color: #fff;
     }
   
@@ -116,15 +101,4 @@
       justify-content:flex-end;
       padding: 10px;
     }
-    #imgp{
-        background-color: #fff;
-        border-radius: 50%;
-        height: 2rem;
-        width: 2rem;
-        align-items: center;
-    }
-    .iconoinplace {
-        background-image: url(./search.png);
-        background-repeat: no-repeat;
-
-    }
+  

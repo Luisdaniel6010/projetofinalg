@@ -22,23 +22,21 @@
       }
   
   .boton{
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      display: inline-block;
-      border-width: 2px;
-      border-style: solid;
-      height: 32px;
-      border-radius: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-bottom: 5px;
-      cursor:pointer;
-      background-color: whitesmoke;
-      color: #120536;
-      margin: 10px;
-      border-width: 5px;
-      border-style: solid;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    display: inline-block;
+    height: 32px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    cursor:pointer;
+    background-color: whitesmoke;
+    color: #120536;
+    margin: 10px;
+    border-width: 2px;
+    border-style: solid;
   }
   .boton :hover{
       color:rgb(24, 9, 238); 
