@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="cadastro.css">
-    
+   
 </head>
 <body>
 
@@ -26,18 +26,26 @@
         <div class="card2">
             <p> Crie sua conta and start now!</p>
             <div>
-                <form action="#" class="formulario">
-                    <input type="text" name="nome" id="nome" placeholder="Nome Completo"><br>
-                    <input type="email" name="email" id="email" placeholder="Seu melhor @email"><br>
-                    <input type="number" name="numero" id="numero" placeholder=" Celular ex: 11-9222-2222"><br>
-                    <input type="text" name="senha" id="senha" placeholder="Senha"><br>
-                    <a href="login.html"><button class="boton2">Criar minha conta gratís</button></a>
+                <form action="" class="formulario">
+                <div>
+                    <input type="text" placeholder="Nome Completo" class="inputs required" oninput="nomeValidate()"><br>
+                    <span id="spam" class="span-required"></span>
+                </div>
+                <div>
+                    <input type="email" placeholder="Seu melhor @email" class="inputs required" required oninput="emailValidate()"><br>
+                    <span id="spam" class="span-required"></span>
+                </div>  
+                <div>  
+                    <input type="number" placeholder=" Celular ex: 11-9222-2222" class="inputs required" required oninput="nuValidate()"><br>
+                    <span  id="spam" class="span-required"></span>
+                </div>    
+
+                    <input type="password" name="senha" id="senha" placeholder="Senha"><br>
                 </form>
+                <a href="catalogo.html" ><button class="boton2">Criar minha conta gratís</button></a>
             </div>
         </div>
 </div> 
-
-
 
 </main>
 
@@ -55,5 +63,6 @@
     </div>
     
  </footer>
+ <script src="cadastro.js"></script>
 </body>
 </html>
